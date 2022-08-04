@@ -14,4 +14,4 @@
 
 <br />
 
-<h5 align=center>Project made in <a href="https://www.rocketseat.com.br/">Rocketseat</a> challenge 💜</h5>
+<h5 align=center>Project made in <a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat</a> challenge 💜</h5>
