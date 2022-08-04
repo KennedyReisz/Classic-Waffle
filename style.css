@@ -1,0 +1,90 @@
+/* Configurations */
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--body-bg-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #eaeaea;
+  --receita-bg-color: #fff;
+  --titles-color: #1b1b1b;
+  --footer-legend-color: #8f8f8f;
+  --others-text-color: #39393a;
+}
+
+/* The Style */
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--receita-bg-color);
+  width: 70%;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.486);
+}
+
+.content h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 28px;
+  margin: 40px;
+  color: var(--titles-color);
+}
+
+.content img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.content .imgLegend {
+  text-align: end;
+  color: var(--footer-legend-color);
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.content .subTitle1 {
+  text-align: center;
+  margin: 20px;
+  color: var(--titles-color);
+}
+
+.content .subTitle2 {
+  text-align: center;
+  color: var(--titles-color);
+  margin: 20px;
+}
+
+.content .subTitle3 {
+  text-align: center;
+  color: var(--titles-color);
+  margin: 20px;
+}
+
+.content li {
+  font-size: 16px;
+  line-height: 26px;
+  list-style-position: inside;
+  color: var(--others-text-color);
+  margin-bottom: 20px;
+}
+
+footer {
+  color: var(--footer-legend-color);
+  text-align: center;
+  font-size: 12px;
+  margin: 15px;
+}
